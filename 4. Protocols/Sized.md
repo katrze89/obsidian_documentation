@@ -5,7 +5,7 @@ Note:
 Zwraca liczbę elementów *len(sized)*
 Nie może zużywać ani modyfikować kolekcji (np. czyli nie może przelecieć po wszystkich next)
 
-**Commands**
+**Command**
 
 ```python
 class X:
