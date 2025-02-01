@@ -17,10 +17,18 @@ uv  # lista wszystkich opcji
 uv init # tworzy podstawową sktrukturę projektu (bez tworzenia virtual env)
 uv run # run a script uv run examples.py
 uv run --with requests example.py  # uruchomienie scryptu z instalacją tymczasową paczki
+uv add paczki --dev # dodaj paczki ale tylko do developmentu
 
 ```
 
+**tworzenie enva krok po kroku**
 
+```shell
+uv init
+uv venv
+source .venv/bin/activate
+uv add 
+```
 
 --- 
 Metadata: 
